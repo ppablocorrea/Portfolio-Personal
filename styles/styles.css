@@ -1,3 +1,41 @@
+body {
+  background-color: rgb(7, 3, 53);
+}
 
+.btn-grad {
+  background-image: linear-gradient(to right, #24C6DC 0%, #514A9D 51%, #24C6DC 100%);
+  padding: 8px 12px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 10px #eee;
+  border-radius: 25px;
+  display: block;
+  border: none;
+  font-family: "Raleway";
+  font-size: 15px;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo-navbar {
+  height: 100px;
+  width: 100px;
+}
+
+@media screen and (max-width: 576px) {
+  .logo-navbar {
+    height: 80px;
+    width: 80px;
+  }
+  .btn-grad {
+    font-size: 12px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
