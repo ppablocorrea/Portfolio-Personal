@@ -9,7 +9,7 @@ body {
   transition: 0.5s;
   background-size: 200% auto;
   color: white;
-  box-shadow: 0 0 10px #eee;
+  box-shadow: 0 0 8px #eee;
   border-radius: 25px;
   display: block;
   border: none;
@@ -34,7 +34,7 @@ body {
     width: 80px;
   }
   .btn-grad {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 
